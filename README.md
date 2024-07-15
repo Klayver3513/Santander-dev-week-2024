@@ -3,7 +3,7 @@ Java RESTful API criada para a dev week do Santander.
 
 ##Diagrama de Classes
 
-'''mermaid
+```mermaid
 classDiagram
     class User {
         -String name
@@ -39,4 +39,4 @@ classDiagram
     User "1" *-- "n" Features
     User "1" *-- "1" Card
     User "1" *-- "n" News
-'''
+```
